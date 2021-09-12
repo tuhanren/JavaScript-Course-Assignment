@@ -1,0 +1,35 @@
+fieldset{
+    width: 600px; 
+    border-radius: 20px; 
+    background: #DDD; 
+    height:auto;
+    margin: auto;
+}
+legend{
+    background: #222; 
+    color: #EEE; 
+    padding: 5px; 
+    font-size: 1.5em;
+    letter-spacing: 3px; 
+    font-variant: small-caps;
+    }
+label, input{
+    width: 100px; 
+    margin:1px; 
+    padding:1px; 
+    float:left;
+}
+label{
+    font-weight: bold; 
+    font-size: 12pt; 
+    font-family: Arial;
+}
+a:visited{
+    color: red;
+    background-color: transparent; 
+    text-decoration: none;}
+a:hover{
+    color: blue; 
+    background-color: transparent; 
+    text-decoration: none;}
+    /*Hanren Tu-301061529*/

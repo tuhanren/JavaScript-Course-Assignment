@@ -1,0 +1,37 @@
+form {
+    width: 561px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+input, label{
+     margin: 5px
+}
+#first1:invalid, #first2:invalid, #last1:invalid, #last2:invalid, #add1:invalid, #add2:invalid, 
+#gen1:invalid, #gen2:invalid, #ph1:invalid, #ph2:invalid,#ye1:invalid, #ye2:invalid{
+    background:rgb(255,233,233)
+}
+#first1:valid, #first2:valid, #last1:valid, #last2:valid, #add1:valid, #add2:valid, 
+#gen1:valid, #gen2:valid, #ph1:valid, #ph2:valid,#ye1:valid, #ye2:valid{
+    background:hsla(0, 2%, 62%, 0.502);
+}
+#button{
+    text-align: center;
+}
+#first1, #first2, #last1, #last2, #ph1, #ph2, #add1, #add2{
+    size: 20px;
+}
+header {background-color: #2f2f30; 
+    color: hsl(0, 2%, 59%); 
+    line-height: 200%;
+    text-align: center;
+    box-shadow:10px 10px 15px #00000080;
+    width: 1000px;
+    margin-left: 23%;
+}
+body #frame{
+    width: 1000px;
+    text-align: left;
+    margin-left: 23%;
+    background-color: #f5f3f3;
+    box-shadow:10px 10px 15px #00000080;
+}

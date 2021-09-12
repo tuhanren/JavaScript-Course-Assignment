@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 6
+
+      Author: Hanren Tu 301061529
+      Date: 02-26-2021
+
+      Filename: test1.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test1</title>
+        <link rel="stylesheet" href="test1.css" />
+        <script src="test1.js"></script>
+    </head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.centennialcollege.ca/"><img alt="logo" src="logo2.jpg" height="64" width="300" style="float:left"></a>
+        </nav>
+      <h2>Test1<br>Hands-on Part</h2>
+    </header>
+<div id="frame">
+    <form id="form">
+    <fieldset id="entry1" class="text">
+        <legend>Entry1</legend>
+        <label  for="first1">First Name: </label>
+            <input type="text" name="firstname1" id="first1" required="required" placeholder="firstname"><br>
+        <label  for="last1">Last Name: </label>
+            <input type="text" name="lastname1" id="last1" required="required" placeholder="lastname"><br>
+        <label  for="add1">Address: </label>
+            <input type="text" name="address1" id="add1" required="required" placeholder="address"><br>
+        <label for="gen1">Gender: </label>
+            <select id="gen1" name="gender1" required="required">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+        <label for="ph1">Phone: </label>
+            <input type="text" name="phone1" id="ph1" required="required" placeholder="phone"><br>
+        <label for="ye1">Year: </label>
+            <select id="ye1" name="year1" required="required">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2019">2021</option>
+                <option value="2020">2022</option>
+            </select>
+    </fieldset>
+    <br>
+    <fieldset id="entry2" class="text">
+        <legend>Entry2</legend>
+        <div class="checks">
+            <input id="sameEnt" name="sameEntry" type="checkbox">
+            <lable for="sameEnt">Same as Entry1</lable>
+        </div><br>
+        <label  for="first2">First Name: </label>
+            <input type="text" name="firstname2" id="first2" required="required" placeholder="firstname"><br>
+        <label  for="last2">Last Name: </label>
+            <input type="text" name="lastname2" id="last2" required="required" placeholder="lastname"><br>
+        <label  for="add2">Address: </label>
+            <input type="text" name="address2" id="add2" required="required" placeholder="address"><br>
+        <label for="gen2">Gender: </label>
+            <select id="gen2" name="gender2" required="required">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+        <label for="ph2">Phone: </label>
+            <input type="text" name="phone2" id="ph2" required="required" placeholder="phone"><br>
+        <label for="ye2">Year: </label>
+            <select id="ye2" name="year2" required="required">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2019">2021</option>
+                <option value="2020">2022</option>
+            </select>
+    </fieldset>
+    <input id="button" type="submit" value="Submit">
+    </form>
+</div>
+</body>
+
+</html>

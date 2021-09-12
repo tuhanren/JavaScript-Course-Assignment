@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BmrCalculator</title>
+        <link href="assignment1.css" rel="stylesheet">
+</head>
+<!--Hanren Tu 301061529-->
+<body>
+    <div>
+    <form name = "calculator">
+    <fieldset>
+        <legend>BMR Calculator</legend>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id = "gender" name = "gender">
+            <option value="Male" id="male">Male</option>
+            <option value="Female" id="female">Female</option>
+        </select>
+        <br><br>
+        <label>Age: </label>
+        <input id = "age" type = "Number" placeholder = "age" name = "age"/>
+        <br><br>
+        <hr>
+        <label>Methods: </label>
+        <br><br>
+        <input type="radio" name="methods" value="mertic" id="metric"/>Mertic<br>
+        <input type="radio" name="methods" value="imperial" id="imperial"/>Imperial
+        <br>
+        <label>Your Height: </label>
+        <br><br>
+        <label>CM: </label><input id = "height1" type = "Number" placeholder = "cm" name = "height" /> 
+        <label>Inches: </label><input id = "height2" type = "Number" placeholder = "inches" name = "height" />
+        <br><br>
+        <label>Your Weight: </label>
+        <br><br>
+        <label>KG: </label><input id = "weight1" type = "Number" placeholder = "kg" name = "weight" />  
+        <label>Pounds: </label><input id = "weight2" type = "Number" placeholder = "pounds" name = "weight" />
+        <br><br>
+        <label>Activity level: </label>
+        <br><br>
+        <input type="radio" name="activityLevel" value="1.53" id="activityLevel1"/>Office worker getting little or no exercise <br>
+        <input type="radio" name="activityLevel" value="1.76" id="activityLevel2"/>Contruction worker or person running one hour daily <br>
+        <input type="radio" name="activityLevel" value="2.25" id="activityLevel3"/>Agricultural worker or person swimming two hours daily <br>
+        <br>
+            <input type = "button" value = "CalculateBMR" id = "calcu"/>
+        <br><br>
+            <input type = "reset" value = "Clear" />
+        <br><br>
+    </fieldset>
+    </form>
+    </div>
+    </body>
+
+    <script src="assignment1.js"></script>
+
+</html>

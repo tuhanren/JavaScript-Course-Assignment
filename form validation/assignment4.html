@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="assignment4.css" />
+    <title>Form Validation</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.centennialcollege.ca/"><img alt="logo" src="logo2.jpg" height="64" width="300" style="float:left"></a>
+        </nav>
+      <h2>Assignment 4<br>Form Validation</h2>
+    </header>
+<div id="frame">
+    <hr style="border-style:solid; border-color:#f5f3f3; border-width:1px">
+    <form>
+    <fieldset>
+        <legend>Member Registration</legend>
+        <label for="fname">FirstName: </label>
+        <input type="text" id="fname" required="required" placeholder="eg.Will"/>
+        <p id="fnError"></p>
+        <label for="lname">LastName: </label>
+        <input type="text" id="lname" required="required" placeholder="eg.Smith"/>
+        <p id="lnError"></p>
+        <label for="address">Address: </label>
+        <input type="text" id="address" required="required" placeholder="eg.1 Yonge street"/>
+        <p id="addressError"></p>
+        <label for="city">City: </label>
+        <input type="text" id="city" required="required" placeholder="eg.Toronto"/>
+        <p id="cityError"></p>
+        <label for="post">Zip Code: </label>
+        <input type="text" id="post" required="required" placeholder="eg.A1B2C3"/>
+        <p id="postError"></p>
+        <label for="province">Province: </label>
+        <input type="text" id="province" required="required" placeholder="eg.BC"/>
+        <p id="provError"></p>
+        <label for="age">Age: </label>
+        <input type="text" id="age" required="required" placeholder="eg.99"/>
+        <p id="ageError"></p>
+        <label for="pwd1">Password: </label>
+        <input type="password" id="pwd1" required="required" />
+        <p></p>
+        <label for="pwd2">Confirm: </label>
+        <input type="password" id="pwd2" required="required" />
+        <p id="pwdError"></p>
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="eg.abc123@gmail.com"/>
+        <p id="emailError"></p>
+        
+        <input type="button" id="submit" value="Submit" />
+        <input type="reset" id="clear" value="Clear" />
+    </fieldset>
+    </form>
+    <hr style="border-style:solid; border-color:rgb(129,124,0); border-width:1px">
+    <footer>
+        <h6><p><i>©&nbsp;Copyright Hanren Tu - 301061529 - COMP125 - Winter 2021</i></p></h6>
+    </footer>
+    <div id="ufooter">
+        <nav>
+         <a href="https://www.facebook.com/hanren.tu/"><img src="facebook.png" alt="facebook" height="40" weight="10" style="margin:10px"></a>
+         <a href="https://www.linkedin.com/in/hanrentu"><img src="linkedin.png" alt="linkedin" height="40" weight="10" style="margin:10px"></a>
+         <a href="mailto:htu7@my.centennialcollege.ca"><img src="message.png" alt="message" height="40" weight="10" style="margin:10px"></a>
+        </nav>
+    </div>
+</div>
+<script src="assignment4.js"></script>
+</body>
+</html>
+<!-- Tu Hanren - 301061529 -->
